@@ -1,6 +1,6 @@
 VERSION:=$(shell cat VERSION)
 REGISTRY_DOMAIN=ghcr.io
-REGISTRY_NAME=ghcr.io/shlima/fortune
+REGISTRY_NAME=ghcr.io/LEMARBE/Fortune
 
 test:
 	go test -timeout=5s -count=1 -p 4 -race -covermode=atomic -coverprofile=coverage.out ./...
